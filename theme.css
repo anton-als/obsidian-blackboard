@@ -31,10 +31,10 @@ body {
 	--accent-s: 70%;
 	--accent-s: 67%;
 
-	--background-primary: #192220;
+	--background-primary: #202a27;
 	--background-primary-alt: #34423e;
-	--background-secondary: #141a18;
-	--background-secondary-alt: #232d2a;
+	--background-secondary: #18201d;
+	--background-secondary-alt: #2a3834;
 	--color-red: #ec8575;
 	--color-red-strong: #e46551;
 	--color-orange: #f3ae6e;
@@ -47,7 +47,7 @@ body {
 	--color-blue-strong: #5cb4ef;
 	--color-purple: #c584eb;
 	--color-purple-strong: #b65fe9;
-	--color-pink: ;
+	--color-pink: #d699b6;
 	--color-brown: #b98855;
 
 	/* text colors */
@@ -94,7 +94,8 @@ body {
 	--checkbox-border-color-hover: var(--text-normal);
 
 	--h1-color: var(--color-red);
-	--h2-color: var(--color-blue);
+	--h2-color: var(--color-orange);
+	--h3-color: var(--color-yellow);
 }
 
 .callout {
@@ -160,4 +161,8 @@ body {
 
 .cm-math.cm-tag {
 	color: var(--color-red);
+}
+
+table {
+	margin-inline: auto;
 }
