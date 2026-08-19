@@ -1,7 +1,7 @@
 body {
-	--radius-s: 5px;
-	--radius-m: 10px;
-	--radius-l: 20px;
+	--radius-s: 2px;
+	--radius-m: 5px;
+	--radius-l: 10px;
 	--input-radius: 10px;
 	--tab-radius-active: var(--radius-m) var(--radius-m) 0 0;
 	--checkbox-radius: var(--radius-s);
@@ -11,6 +11,7 @@ body {
 	/* --tab-container-background: #45444a; */
 
 	--callout-border-width: 2px;
+	--callout-color: var(--color-blue);
 
 	--link-decoration: none;
 
@@ -35,6 +36,7 @@ body {
 	--background-primary-alt: #34423e;
 	--background-secondary: #18201d;
 	--background-secondary-alt: #2a3834;
+	--color-terracotta: #dd7b55;
 	--color-red: #ec8575;
 	--color-red-strong: #e46551;
 	--color-orange: #f3ae6e;
@@ -42,7 +44,7 @@ body {
 	--color-yellow-strong: #f5df4c;
 	--color-green: #71e6a2;
 	--color-green-strong: #49e389;
-	--color-cyan: ;
+	--color-cyan: #85e0d7;
 	--color-blue: #83c1ed;
 	--color-blue-strong: #5cb4ef;
 	--color-purple: #c584eb;
@@ -96,10 +98,6 @@ body {
 	--h1-color: var(--color-red);
 	--h2-color: var(--color-orange);
 	--h3-color: var(--color-yellow);
-}
-
-.callout {
-	--callout-color: var(--color-blue);
 }
 
 .theme-light {
